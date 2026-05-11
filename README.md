@@ -41,7 +41,7 @@ ecommerce/
 - `GET /api/products/{id}` - Fetch single product by ID
 
 ## Technologies Used
-- **Backend**: Spring Boot 4.0.2, Java 17
+- **Backend**: Spring Boot 4.0.2, Java 18
 - **Frontend**: React.js
 - **Data Storage**: HashMap (in-memory)
 - **Styling**: CSS3 with gradients and animations
