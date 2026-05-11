@@ -1,0 +1,108 @@
+.review-list-container {
+  padding: 16px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.review-form {
+  background: white;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.reviews-section {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.review-item {
+  padding: 12px;
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border-left: 3px solid #6366f1;
+}
+
+.review-comment {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Dark Mode Styles */
+[data-theme='dark'] .review-list-container {
+  background: #141414;
+}
+
+[data-theme='dark'] .review-form {
+  background: #262626;
+  border: 1px solid #424242;
+}
+
+[data-theme='dark'] .review-item {
+  background: #262626;
+  border-left-color: #a78bfa;
+  border: 1px solid #424242;
+}
+
+[data-theme='dark'] .review-comment {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+[data-theme='dark'] .review-header .ant-typography {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+[data-theme='dark'] .ant-input,
+[data-theme='dark'] .ant-input-textarea textarea {
+  background: #1f1f1f;
+  border-color: #424242;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+[data-theme='dark'] .ant-input::placeholder,
+[data-theme='dark'] .ant-input-textarea textarea::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+[data-theme='dark'] .ant-input:hover,
+[data-theme='dark'] .ant-input-textarea textarea:hover {
+  border-color: #6366f1;
+}
+
+[data-theme='dark'] .ant-input:focus,
+[data-theme='dark'] .ant-input-textarea textarea:focus {
+  border-color: #6366f1;
+  background: #262626;
+}
+
+[data-theme='dark'] .ant-form-item-label > label {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+[data-theme='dark'] .ant-form-item-required::before {
+  color: #ef4444 !important;
+}
+
+[data-theme='dark'] .reviews-section::-webkit-scrollbar {
+  width: 8px;
+}
+
+[data-theme='dark'] .reviews-section::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+[data-theme='dark'] .reviews-section::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 4px;
+}
+
+[data-theme='dark'] .reviews-section::-webkit-scrollbar-thumb:hover {
+  background: #525252;
+}
